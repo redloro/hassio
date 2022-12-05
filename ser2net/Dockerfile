@@ -26,7 +26,7 @@ LABEL \
     org.label-schema.name="ser2net" \
     org.label-schema.schema-version="1.0" \
     org.label-schema.url="https://github.com/redloro/hassio/tree/main/ser2net" \
-    org.label-schema.usage="https://github.com/redloro/hassio/tree/master/README.md" \
+    org.label-schema.usage="https://github.com/redloro/hassio/tree/main/ser2net/README.md" \
     org.label-schema.vcs-ref=${BUILD_REF} \
     org.label-schema.vcs-url="https://github.com/redloro/hassio" \
     org.label-schema.vendor="redloro"

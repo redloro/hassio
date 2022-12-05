@@ -1,14 +1,24 @@
-# Home Assistant Add-Ons
-
-## ser2net
+# Home Assistant Add-on: ser2net
 
 [Home Assistant Add-on](https://home-assistant.io/addons/) to support [ser2net](https://linux.die.net/man/8/ser2net).
 
-### Description
+![Supports aarch64 Architecture][aarch64-shield]
+![Supports amd64 Architecture][amd64-shield]
+![Supports armhf Architecture][armhf-shield]
+![Supports armv7 Architecture][armv7-shield]
+![Supports i386 Architecture][i386-shield]
+
+[aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+
+## Description
 
 Proxy tcp connections to serial ports in Home Assistant.
 
-### Usage
+## Usage
 
 Add-on automatically makes ports 3330-3339 available to map to available serial ports.
 
