@@ -1,0 +1,44 @@
+{
+  "name": "ser2net",
+  "version": "0.0.1",
+  "slug": "ser2net",
+  "description": "Proxy tcp connections to serial ports in Home Assistant",
+  "url": "https://github.com/redloro/hassio/tree/main/ser2net",
+  "image": "redloro/{arch}-ser2net",
+  "arch": [
+    "aarch64",
+    "amd64",
+    "armhf",
+    "armv7",
+    "i386"
+  ],
+  "startup": "services",
+  "init": false,
+  "uart": true,
+  "ports": {
+    "3330/tcp": 3330,
+    "3331/tcp": 3331,
+    "3332/tcp": 3332,
+    "3333/tcp": 3333,
+    "3334/tcp": 3334,
+    "3335/tcp": 3335,
+    "3336/tcp": 3336,
+    "3337/tcp": 3337,
+    "3338/tcp": 3338,
+    "3339/tcp": 3339
+  },
+  "options": {
+    "startup": [
+      {
+        "command": "3330:telnet:0:/dev/ttyUSB0:19200 8DATABITS NONE 1STOPBIT"
+      }
+    ]
+  },
+  "schema": {
+    "startup": [
+      {
+        "command": "str"
+      }
+    ]
+  }
+}
