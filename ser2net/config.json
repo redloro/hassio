@@ -1,6 +1,6 @@
 {
   "name": "ser2net",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "slug": "ser2net",
   "description": "Proxy tcp connections to serial ports in Home Assistant",
   "url": "https://github.com/redloro/hassio/tree/main/ser2net",
